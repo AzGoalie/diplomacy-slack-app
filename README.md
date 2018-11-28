@@ -14,8 +14,8 @@ To run: `java -jar diplomacy-slack-app-1.0-SNAPSHOT-fat.jar -conf ${path/to/conf
 The configuration file is expected be a json file with the following format
 ```json
 {
-  "HTTP.PORT": ${port.number},
-  "SLACK_TOKEN": ${slack.app.token},
-  "SLACK_HOOK_URL": ${slack.web.hook.url}
+  "HTTP.PORT": 8080,
+  "SLACK_TOKEN": "slack.app.token",
+  "SLACK_HOOK_URL": "/slack/web/hook/url"
 }
 ```
